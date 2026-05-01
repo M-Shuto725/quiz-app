@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>クイズアプリ</title>
+</head>
+<body>
+
+  <h1>クイズアプリ</h1>
+
+  <p id="question"></p>
+
+  <button onclick="checkAnswer(0)" id="btn0"></button>
+  <button onclick="checkAnswer(1)" id="btn1"></button>
+  <button onclick="checkAnswer(2)" id="btn2"></button>
+
+  <p id="result"></p>
+
+  <button onclick="restartQuiz()" id="restartBtn" style="display: none;">
+    もう一回
+  </button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
